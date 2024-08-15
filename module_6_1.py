@@ -33,7 +33,8 @@ class Flower(Plant):
 
 class Fruit(Plant):
     def __init__(self, name):
-        super().__init__(name, edible=True)
+        self.name = name
+        self.edible = True
 
 
 if __name__ == '__main__':
